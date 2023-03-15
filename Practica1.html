@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Ejemplo de Applet con Java</h1></center>
+    <p>Un <strong>applet </strong>conforme a lo que encontramos en las paginas 
+        de Oracle: "es una aplicación hecho en Java que se llama desde un documento
+        <i>HTML </i>y se ejecula dentro del <ins> navegador </ins> " Es necesario recordar que el navegador 
+        debe tener <ins> instalado </ins> el plugin de la Máquina Virtual de Java (JVM).
+    </p><br>
+    <p>
+        <i>Máquina Virtual de Java </i> Es e programa que se encarga de ejecutar el bytecode
+        generado por el compilador de Java.
+    </p><br>
+    <p>
+        Para entender la forma e que se manejaba los <strong> applets </strong> vamos a ver
+        un ejemplo que se presenta el clásico <font style="background-color: yellow;">Hola mundo :</font> 
+    </p><br>
+    
+    <p>
+        Como puede observarse la única variable que utiliza este applet 
+        es g que reprenta un objeto de la clase <i>Graphics </i>sobre el cual 
+        vamos a dibuar la cadena de texto que resulta de ejecutar el applet.
+    </p><br>
+    <p>
+        Para ejecutarlo es necesario mandarlo llamar desde una página HTML utilizando la etiqueta < applet > o la etiqueta < object >. 
+        En el primer caso el archivo <i>.class</i> se declara en el atributo code, en el segundo se delcara un elemento param 
+        donde sus atributos name será code y value será el nombre del applet .Cabe mencionar que en  <strong> el segundo caso es necesario 
+        declarar otros elementos param adicionales y en elemento object declarar algunos parámetros como classid,<i> codebase </i></strong>/
+         y type. en ambos casos es necesario declarar el tamaño de la ventana del applet con los parámetros <i>width y height. </i></p>
+        <br>
+        <p>La salida del programa será: <small> Hola mundo!! </small></p>
+        <br>
+        <p>Todos sabemos que este es un ejemplo muy sencillo y lo habremos visto ya bastantes veces, probablementecuando
+            <i>Dennis N. Ritchie </i> escribió en lenguaje C, jamás imaginó que sería utilizado como ejemplo inicial de tantos lenguajes
+            de programación.</p>
+    
+
+</body>
+</html>
